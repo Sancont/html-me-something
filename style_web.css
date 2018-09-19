@@ -1,0 +1,85 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* Your images should be linked as if the CSS file sits in the same folder as the images. ie. no paths. */
+
+
+/* basic elements */
+html {
+	margin: 0;
+	padding: 0;
+	}
+body { 
+	font: 80% georgia, sans-serif;
+	line-height: 1.88889;
+	color: black; 
+    background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+    background: #fff url(./images/IMG_6534.JPG ) no-repeat bottom right; 
+	margin: 100; 
+	padding: 20;
+	}
+p { 
+    background: rgb(235, 223, 156);
+    margin-top: 0; 
+    text-align: center;
+    
+	}
+h3 { 
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 0; 
+	color: #fff;
+	}
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #B7A5DF;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #D4CDDC;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: #9685BA;
+	}
+abbr {
+	border-bottom: none;
+	}
+
+
+/* specific divs */
+
+
+header h1 { 
+    background:transparent;
+    color: rgb(224, 233, 182);
+    margin-top: 10px;
+	display: block;
+	width: 270px;
+	height: 87px;
+	float: left;
+	white-space: nowrap;
+	overflow: hidden;
+	}
+
+header {
+	padding-top: 20px;
+	height: 87px;
+}
+
+
+
+footer { 
+	text-align: center; 
+	}
+footer a:link, footer a:visited { 
+	margin-right: 20px; 
+	}
+
+
